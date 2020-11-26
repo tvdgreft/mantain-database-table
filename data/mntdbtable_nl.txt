@@ -1,0 +1,56 @@
+;
+; errors
+;
+ERROR_NOTABLE=Tabel is niet bekend
+ERROR_NOPREFIX=Prefix is niet bekend
+;
+; buttons
+;
+PAGING_TOTALRECORDS=aantal rijen
+PAGING_TOTALPAGES=aantal pagina's
+PAGING_PAGE=pagina
+PAGING_OF=van
+SELECT_SORT=sorteren op
+BUTTON_SEARCH=zoek
+BUTTON_DISPLAY=overzicht
+BUTTON_EXPORT=exporteren
+BUTTON_CREATE=create
+BUTTON_MODIFY=opslaan
+BUTTON_BACK=terug
+BUTTON_CANCEL=annuleren
+;
+; messages
+;
+MESSAGE_SURE=weet u zeker dat record
+MESSAGE_DELETE=verwijderd moet worden
+MESSAGE_RECORD=rij
+MESSAGE_TABLE=van tabel
+MESSAGE_REMOVED=is verwijderd
+MESSAGE_CREATED=is ingevoerd
+MESSAGE_EXIST=bestaat al
+ERROR_CREATE=kan niet worden aangemaakt
+ERROR_NOFUNCTION=Geen create/modify function opgegeven
+;
+; form
+;
+FORM_SEARCH=verfijn selectie
+FORM_CREATE=aanmaken nieuw record
+FORM_COPY=kopie maken record
+FORM_MODIFY=wijzigen record
+FORM_SAFE=opslaan
+FORM_COPYSAFE=opslaan als kopie
+FORM_SHOWBACK=terug naar overzicht
+FORM_CANCEL=annuleren
+;
+; labels
+;
+LABEL_MAXLINES=max rgls/pg
+LABEL_SORT=sorteren op
+LABEL_ASC=oplopend
+LABEL_DESC=aflopend
+LABEL_SUREDELETE=Weet u zeker dat u record: %s wilt verwijderen?
+LABEL_PAGES=pagina %s van %s
+;
+;info
+;
+INFO_SEARCH=zoek of tekst in veld voorkomt <br>(<)zoekwoord - zoek records waarvan de inhoud van het veld kleiner is<br>&gt;zoekword - zoek records waarvan de inhoud van het veld groter is<br>#zoekwoord - zoek records waarvan de inhoud van het veld precies gelijk is.<br>Bij getallen wordt altijd gekeken of veld precies gelijk is.

@@ -1,0 +1,119 @@
+PLG_SYSTEM_RELATIONSHELLASDUIN=System - Relationshellasduin
+XML_DESCRIPTION=relatie beheer Hellasduin
+;
+;parameters
+;
+PARAM_ORGANISATION_LABEL=organisatie
+PARAM_ORGANISATION_DESC=Naam van de organisatie
+PARAM_ORGANISATIONEMAIL_LABEL=email
+PARAM_ORGANISATIONEMAIL_DESC=Email adres van de organisatie
+PARAM_EMAILWEBMASTER_LABEL=email webmaster;
+PARAM_EMAILWEBMASTER_DESC=email van de webmaster;
+PARAM_BACKCOLOR_LABEL=achtergrond kleur
+PARAM_BACKCOLOR_DESC=achtergrond kleur van het mutatieformulier
+PARAM_GROUPS_LABEL=joomla user groups
+PARAM_GROUPS_DESC=groepen waaraan een relatie kan worden toegewezen
+PARAM_ACCOUNTURL_LABEL=url naar login module
+PARAM_ACCOUNTURL_DESC=url om de login module te starten. De volgende POST parameter moet worden meegegeven: redirecturl
+;
+; intro's
+;
+MYPROFILE_INTRO=<h2>Profiel aanpassen</h2><br>Met onderstaand formulier kan u uw (%s) gegevens wijzigen.
+MYPROFILE_READY=Profiel is gewijzigd
+;
+; labels
+;
+LABEL_RELATION_NAME=naam
+LABEL_RELATION_EMAIL=email
+;
+; info
+;
+INFO_GROUPS=groepen opgeslagen
+HEADER_TABLEVIEW=Beheren tabellen
+HEADER_INVITEMEMBER=Hiermee wordt een lid uitgenodigd om voor zichzelf een account aan te maken. Er wordt een mail gestuurd naar het opgegeven emailadres, waarin een link staat naar het aanmaken van een account.
+HEADER_INVITEMEMBERS=Hiermee wordt een bestand ingelezen , waarin de emailadressen staan van leden, die worden uitgenodigd om voor zichzelf een account aan te maken. Onderstaande emailadressen krijgen een email. <br>Onderaan moet een wachtwoord worden opgegeven
+;
+; buttons
+;
+BUTTON_BACK=terug
+BUTTON_CANCEL=annuleren
+BUTTON_CLOSE=afsluiten
+BUTTON_LOGIN=inloggen/registreren
+BUTTON_SUBSCRIBE=inschrijven
+BUTTON_PROFILE=wijzigen
+BUTTON_DELETERELATION=relatie verwijderen
+BUTTON_DELETERELATION_SURE=relatie definitief verwijderen
+BUTTON_ADMINREGISTRATION=inschrijven
+BUTTON_RELATIONTABLE=relaties
+BUTTON_MYPROFILE=mijn profiel
+BUTTON_MODEMAIL=wijzig emailadres
+BUTTON_GROUPS=groepen vastleggen
+BUTTON_MAKEACCOUNT=nieuwe relatie aanmaken
+BUTTON_SETGROUPS=opslaan
+BUTTON_CONTINUE=ga verder
+BUTTON_INVITEMEMBER=uitnodiging account aanmaken
+BUTTON_INVITEMEMBERS=stuur uitnodigingen
+;
+; errors
+;
+ERROR_NOLOGIN=Log in of registreer je om je in te schrijven
+ERROR_REQUIRED=vul ontbrekende velden in
+ERROR_NOTSUBSCRIBED=U bent niet ingeschreven
+;
+; mij login
+;
+MYLOGIN_INTRO=<h2>Mijn Hellasduin</h2><br>Welkom %s,<br>Dit is uw persoonlijke pagina. Hier kunt u wijzigingen in uw profiel doorvoeren. Zie de knoppen hieronder.
+FORM_GROUPS=Selecteer de groepen die aan relaties kunnen worden toegewezen
+;
+; RELATIONS
+;
+INTRO_RELATIONS_INVITEMEMBERFORM=Stuur eem mail naar een lid, zodat die voor zichzelf een aacount aan kan maken
+FORM_RELATIONS_INFOACCOUNT=Een relatie krijgt altijd het email adres als inlognaam. Vul hieronder dit emailadres in
+FORM_RELATIONS_CREATE=aanmaken nieuwe relatie
+FORM_RELATIONS_CREATE_INTRO=Het emailadres van een relatie moet uniek zijn. Controleer vooraf of die al bestaat. Let wel: wanneer op deze manier een relatie wordt aangemaakt, krijgt deze relatie niet automatisch een login account. Deze moet handmatig via gebruikersbeheer worden aangemaakt.
+FORM_RELATIONS_HEADER=invoeren persoonsgegevens;
+FORM_RELATIONS_INTRO=velden met een * zijn verplicht. De andere velden, zoals pasfoto kunnen later ook nog worden ingevuld.
+FORM_RELATIONS_MODIFY=wijzigen relatie
+FORM_RELATIONS_RELATIONTYPE=relatietype
+FORM_RELATIONS_RELATIONTYPES=['cursist','medewerker',docent]'
+FORM_RELATIONS_EMPLOYEE=medewerker
+FORM_RELATIONS_TEACHER=docent
+FORM_RELATIONS_STUDENT=cursist
+FORM_RELATIONS_STATUS=status
+FORM_RELATIONS_STATUSES=["normaal","afgevoerd"]
+FORM_RELATIONS_GENDER=geslacht
+FORM_RELATIONS_PHOTO=pasfoto
+FORM_RELATIONS_GENDERS=["neutraal","man","vrouw"]
+FORM_RELATIONS_FIRSTNAME=voornaam
+FORM_RELATIONS_MIDDLENAME=tussenvoegsel
+FORM_RELATIONS_LASTNAME=achternaam
+FORM_RELATIONS_NAME=naam
+FORM_RELATIONS_STREET=straat
+FORM_RELATIONS_HOUSE=huisnummer
+FORM_RELATIONS_ZIPCODE=postcode
+FORM_RELATIONS_PLACE=woonplaats
+FORM_RELATIONS_ADDRESS=adres
+FORM_RELATIONS_BIRTHDATE=geboortedatum
+FORM_RELATIONS_EMAIL=emailadres
+FORM_RELATIONS_EMAILMATCH=herhaal email adres
+FORM_RELATIONS_PHONE=telefoon
+FORM_RELATIONS_MOBILE=mobiel
+FORM_RELATIONS_APPARTMENT=appartement
+FORM_RELATIONS_ERROR_PHONE=telefoonnummer klopt niet
+FORM_RELATIONS_ERROR_NOPHONE=tenminste 1 telefoonnummer opgeven
+FORM_RELATIONS_ERROR_BTW=BTW nummer klopt niet
+FORM_RELATIONS_ERROR_EMAIL=email adres klopt niet
+FORM_RELATIONS_ERROR_EMAILMATCH=email adres matcht niet
+FORM_RELATIONS_ERROR_PASSWORDMATCH=wachtwoord matcht niet
+FORM_RELATIONS_ERROR_NOTSUBSCRIBED=U bent niet ingeschreven, neem contact op met %s
+FORM_RELATION_DELETE_NAME=Relatie die verwijderd gaat worden: %s
+FORM_RELATION_DELETE_DONE=relatie %s is verwijderd
+FORM_RELATIONS_YESORNO=ja,nee
+FORM_RELATIONS_YES=ja
+FORM_RELATIONS_NO=nee
+MAIL_INVITATIONS=Beste a.s bewoner Hellasduin<br><br>U ontvangt deze mail omdat u lid bent van de bewonersvereniging Hellasduin. Via onderstaande link kunt u zich aanmelden op de website. Uw emailadres is de toegangscode. Middels deze link kunt u uw gegevens aanvullen.
+MAIL_LINK=Aanmelden bij Hellasduin
+MAIL_SUBJECT=Aanmelden bij Hellasduin
+MAIL_INFO=Aanmeldingsmail gestuurd naar: 
+MAIL_DONE=Aanmeldingsmail verstuurd
+
