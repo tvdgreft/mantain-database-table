@@ -1,0 +1,91 @@
+.hasPopover
+{
+	white-space: pre-line;
+}
+.prana-display
+{
+	background-color: #fdcb52;
+	padding: 10px;
+}
+.prana-box
+{
+	background-color: #ff8c00;
+	border-radius: 1em
+}
+.prana-button {
+  color: #2db762;
+  background: #FFFFFF;
+  font-weight: bold;
+  border: 2px solid #2db762;
+  height: 35px;
+  border-radius: 25px;
+  width: 150px;
+  max-width: 250px;
+}
+.prana-button.box
+{
+	margin-top: 18px;
+}
+.prana-button:hover {
+  color: #FFF;
+  background: #fdcb52;
+}
+
+.prana-btnsmall {
+  color: #2db762;
+  background: #FFFFFF;
+  font-weight: bold;
+  border: 1px solid #2db762;
+  height: 25px;
+  border-radius: 25px;
+  max-width: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/*
+.prana-btnsmall.box
+{
+	margin-top: 18px;
+}
+*/
+.prana-btnsmall:hover {
+  color: #FFF;
+  background: #D0C801;
+}
+/*
+	header of column is a button
+*/
+.pbtn-header {
+	background-color: transparent;
+	border: none;
+	color: black;
+	height: 10px;
+	padding-left: 0px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+.pbtn-header:hover {
+  background-color: #fdcb52;
+  color: red;
+}
+
+.compact-table
+{
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 1.5em;
+	border-collapse: collapse;
+	border-spacing: 0;
+	background-color: transparent;
+	font-size: 1em;
+	border: 0;
+}
+.compact-table tr
+{
+	height: 10px;
+}
