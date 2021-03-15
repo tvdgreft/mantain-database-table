@@ -6,7 +6,7 @@ class Bootstrap
 {
 /**
  * Checks if the system requirements are met
- * versie 2 gewijzigd
+ * 
  *
  * @return bool True if system requirements are met, false if not
  */
